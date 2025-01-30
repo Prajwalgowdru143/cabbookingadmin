@@ -1,8 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Dashboard from './pages/Dashboard';
-import Drivers from './pages/Drivers';
-import Trips from './pages/Trips';
+import Layout from './pages/layout';
+import Dashboard from './pages/dashboard';
+import Drivers from './pages/drivers';
+import Trips from './pages/trips';
+
+
+
+
 
 function App() {
   return (
